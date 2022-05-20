@@ -134,5 +134,39 @@ img {
     }
  }
 
+@media all and (max-width: 480px){
+    .lessons .col img {
+        height:300px;
+    }
 
- 
+    h1{
+        font-size: 3rem;
+    }  
+    
+    .lessons .container h2{
+        font-size: 2.5rem;
+    }
+    .lessons .col,.steps .col,.why-us .col-right,.why-us .col-left{
+        width: 100%
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }    
+    
+    .steps,.why-us{
+        margin: 0;
+    }
+
+    .why-us li:last-child,.text{
+        padding-bottom: 60px;
+    }
+
+    .why-us{
+        background-color: #0b0c0e70;
+    }
+
+    .col-right,.steps,.why-us{
+        padding:60px 0 0 0;
+    }
+}
